@@ -29,6 +29,14 @@ The goal is to create a clean, unique, and production-like system demonstrating 
   - Monthly Revenue for the Last 5 Months
   - Top 5 Customers by Average Review Rating
   - Product Revenue Contribution by Category
+ 
+## ✨ Features
+
+- **End-to-End Data Pipeline:** Complete workflow from synthetic data generation to database ingestion and multi-table SQL analytics.  
+- **Realistic Synthetic Datasets:** Generates 5 e-commerce CSV files (`customers`, `products`, `orders`, `order_items`, `reviews`) suitable for experimentation and learning.  
+- **Advanced SQL Analytics:** Supports multi-table joins, aggregations (`SUM`, `AVG`, `COUNT`), subqueries, and generates meaningful business insights.  
+- **Robust Data Ingestion:** Ensures referential integrity, proper data types, error handling, and data validation when loading into SQLite.  
+- **Configurable & Reproducible:** Dataset size can be scaled, and results are reproducible using a seed parameter.  
 
  ## 📁 Project Structure
  ```
