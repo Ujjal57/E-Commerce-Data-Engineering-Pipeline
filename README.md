@@ -31,8 +31,9 @@ The goal is to create a clean, unique, and production-like system demonstrating 
   - Product Revenue Contribution by Category
 
  ## 📁 Project Structure
+ ```
 E-Commerce-Data-Engineering-Pipeline/
-├── data/                     # Generated synthetic CSV datasets
+├── synthetic_ecom_data/                     # Generated synthetic CSV datasets
 ├── database/                 # SQLite database after ingestion
 ├── src/
 │   ├── generate_data.py      # Script to generate synthetic CSV data
@@ -40,4 +41,5 @@ E-Commerce-Data-Engineering-Pipeline/
 ├── queries.sql               # Advanced multi-table SQL analytics queries
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
+```
 
