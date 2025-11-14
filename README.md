@@ -1,5 +1,9 @@
 # 📦 E-Commerce Data Engineering Pipeline (Synthetic Dataset)
 
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![SQLite](https://img.shields.io/badge/SQLite-database-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 This project is a complete end-to-end data engineering pipeline built using Cursor IDE with GitHub Copilot assistance. It includes synthetic e-commerce data generation, ingestion into SQLite, and advanced multi-table SQL analytics.
 
 The goal is to create a clean, unique, and production-like system demonstrating real-world data engineering workflows.
@@ -45,8 +49,7 @@ E-Commerce-Data-Engineering-Pipeline/
 ├── src/
 │   ├── generate_data.py        # Script to generate synthetic CSV data
 │   └── ingest_to_sqlite.py     # Script to ingest CSVs into SQLite
-├── prompts.md                  # Generated synthetic CSV datasets
-├── queries.sql                 # Combined Markdown file with all prompts
+├── prompts.md                  # Consolidated AI prompts used for data generation, ingestion, and SQL queries
 ├── queries.sql                 # Advanced multi-table SQL analytics queries
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project documentation
