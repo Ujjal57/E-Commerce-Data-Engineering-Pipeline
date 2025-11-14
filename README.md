@@ -151,3 +151,9 @@ The pipeline generates multiple useful business insights from the synthetic e-co
 | Toys        | 21,772.17     | 0.0833         |
 
 > These outputs are **generated dynamically** from the synthetic datasets using `queries.sql` on the SQLite database.
+
+## 📝 License
+
+© 2025 Ujjal Kumar Dey. **All rights reserved.**
+
+No part of this project may be used, copied, or modified without my explicit permission.
