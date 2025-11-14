@@ -1,6 +1,6 @@
 # 📝 Cursor IDE AI Prompts for E-Commerce Data Engineering Pipeline
 
-This file documents the AI prompts used in **Cursor IDE** with **GitHub Copilot** to create the synthetic e-commerce data pipeline project.  
+This file documents the AI prompts used in **Cursor IDE** to create the synthetic e-commerce data pipeline project.  
 
 Each prompt corresponds to a specific task: generating data, ingesting it into SQLite, and creating multi-table SQL analytics queries.
 
@@ -30,10 +30,11 @@ Each prompt corresponds to a specific task: generating data, ingesting it into S
 # Output:
 # - Python script: generate_data.py
 # - Writes 5 CSV files under data/ folder
-
+```
 
 ## 2️⃣ Cursor IDE Prompt: Ingest Data into SQLite
 
+```text 
 # Task:
 # Write a Python script to ingest synthetic CSV datasets into a SQLite database.
 
@@ -49,9 +50,11 @@ Each prompt corresponds to a specific task: generating data, ingesting it into S
 # Output:
 # - Python script: ingest_to_sqlite.py
 # - Database created under database/ecommerce.db
+```
 
 3️⃣ Cursor IDE Prompt: Multi-Table SQL Queries
 
+```text
 # Task:
 # Write SQL queries for advanced analytics on the e-commerce SQLite database.
 
