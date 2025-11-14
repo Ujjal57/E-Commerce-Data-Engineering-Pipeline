@@ -33,13 +33,13 @@ The goal is to create a clean, unique, and production-like system demonstrating 
  ## 📁 Project Structure
  ```
 E-Commerce-Data-Engineering-Pipeline/
-├── synthetic_ecom_data/                     # Generated synthetic CSV datasets
-├── database/                 # SQLite database after ingestion
+├── database/                   # SQLite database after ingestion
 ├── src/
-│   ├── generate_data.py      # Script to generate synthetic CSV data
-│   └── ingest_to_sqlite.py   # Script to ingest CSVs into SQLite
-├── queries.sql               # Advanced multi-table SQL analytics queries
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
+│   ├── generate_data.py        # Script to generate synthetic CSV data
+│   └── ingest_to_sqlite.py     # Script to ingest CSVs into SQLite
+├── synthetic_ecom_data/        # Generated synthetic CSV datasets
+├── queries.sql                 # Advanced multi-table SQL analytics queries
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
 ```
 
