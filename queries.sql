@@ -13,7 +13,7 @@
 
 
 -- ==========================================================
--- 1️⃣ Top 10 Customers by Lifetime Spend
+-- 1️⃣ Top 5 Customers by Lifetime Spend
 -- ----------------------------------------------------------
 -- Shows customers with the highest total spending across
 -- all completed orders.
@@ -28,11 +28,11 @@ JOIN orders o ON o.customer_id = c.customer_id
 WHERE o.status = 'completed'
 GROUP BY c.customer_id, c.name
 ORDER BY lifetime_spend DESC
-LIMIT 10;
+LIMIT 5;
 
 
 -- ==========================================================
--- 2️⃣ Top 10 Products by Revenue and Units Sold
+-- 2️⃣ Top 5 Products by Revenue and Units Sold
 -- ----------------------------------------------------------
 -- Identifies products that generate the highest sales and
 -- total quantity sold, based on completed orders.
@@ -48,11 +48,11 @@ JOIN order_items oi ON oi.product_id = p.product_id
 JOIN orders o ON o.order_id = oi.order_id AND o.status = 'completed'
 GROUP BY p.product_id, p.name, p.category
 ORDER BY revenue DESC
-LIMIT 10;
+LIMIT 5;
 
 
 -- ==========================================================
--- 3️⃣ Monthly Revenue for the Last 12 Months
+-- 3️⃣ Monthly Revenue for the Last 5 Months
 -- ----------------------------------------------------------
 -- Calculates total revenue per month (YYYY-MM format) for
 -- completed orders in the last year.
@@ -70,11 +70,11 @@ SELECT
     ROUND(revenue, 2) AS total_revenue
 FROM months
 ORDER BY month DESC
-LIMIT 12;
+LIMIT 5;
 
 
 -- ==========================================================
--- 4️⃣ Top 20 Customers by Average Review Rating
+-- 4️⃣ Top 5 Customers by Average Review Rating
 -- ----------------------------------------------------------
 -- Finds customers who provided the highest average ratings.
 -- Filters to include only customers with at least 3 reviews.
@@ -89,7 +89,7 @@ JOIN reviews r ON r.customer_id = c.customer_id
 GROUP BY c.customer_id, c.name
 HAVING review_count >= 3
 ORDER BY avg_rating DESC, review_count DESC
-LIMIT 20;
+LIMIT 5;
 
 
 -- ==========================================================
