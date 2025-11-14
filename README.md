@@ -29,12 +29,14 @@ The goal is to create a clean, unique, and production-like system demonstrating 
   - Monthly Revenue for the Last 5 Months
   - Top 5 Customers by Average Review Rating
   - Product Revenue Contribution by Category
-.
-├── data/                     
-├── database/                 
+
+ ## 📁 Project Structure
+ ├── data/ # Generated synthetic CSV datasets
+├── database/ # SQLite database
 ├── src/
-│   ├── generate_data.py      
-│   └── ingest_to_sqlite.py   
-├── queries.sql               
-├── requirements.txt          
-└── README.md                 
+│ ├── generate_data.py # Synthetic data generator
+│ └── ingest_to_sqlite.py # SQLite ingestion pipeline
+├── queries.sql # Multi-table SQL analytics queries
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+                     
