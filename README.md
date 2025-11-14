@@ -94,3 +94,56 @@ This project was built using **Cursor IDE** and **GitHub Copilot**. All AI promp
 - **SQL** – Multi-table queries, joins, aggregations, subqueries  
 - **CSV** – Input and output file format for datasets  
 - **Git & GitHub** – Version control and repository management  
+
+## 📈 Outputs
+
+The pipeline generates multiple useful business insights from the synthetic e-commerce dataset. Example outputs include:
+
+### 1️⃣ Top 5 Customers by Lifetime Spend
+| customer_id | name             | orders_count | lifetime_spend |
+|------------|-----------------|-------------|----------------|
+| 142        | David Robinson   | 12          | 3,327.82       |
+| 29         | Jacob Hunter     | 12          | 2,167.17       |
+| 486        | Morgan Glass     | 8           | 1,932.34       |
+| 497        | Nicholas James   | 6           | 1,721.43       |
+| 272        | Thomas Williams  | 8           | 1,539.75       |
+
+### 2️⃣ Top 5 Products by Revenue and Units Sold
+| product_id | name           | category  | revenue   | units_sold |
+|------------|----------------|----------|----------|------------|
+| 21         | Each Finish    | Home     | 9,641.84 | 52         |
+| 152        | Air Fill       | Sports   | 8,936.56 | 68         |
+| 101        | However Turn   | Sports   | 8,593.44 | 48         |
+| 177        | Point Notice   | Beauty   | 5,565.00 | 60         |
+| 132        | Heavy Of       | Clothing | 5,002.89 | 57         |
+
+### 3️⃣ Monthly Revenue Trends (Last 5 Months)
+| month    | total_revenue |
+|---------|---------------|
+| 2025-11 | 4,231.71      |
+| 2025-10 | 8,511.22      |
+| 2025-09 | 11,583.39     |
+| 2025-08 | 11,021.09     |
+| 2025-07 | 12,196.76     |
+
+### 4️⃣ Top 5 Customers by Average Review Rating (min 3 reviews)
+| customer_id | name            | review_count | avg_rating |
+|------------|----------------|--------------|------------|
+| 426        | James Rodriguez | 5            | 4.80       |
+| 428        | Thomas Cohen    | 4            | 4.75       |
+| 40         | William Lynch   | 3            | 4.67       |
+| 55         | Nicholas Edwards| 3            | 4.67       |
+| 161        | Kiara Smith     | 3            | 4.67       |
+
+### 5️⃣ Revenue Contribution by Product Category
+| category     | revenue       | pct_of_revenue |
+|-------------|---------------|----------------|
+| Electronics | 64,903.04     | 0.2484         |
+| Clothing    | 44,342.38     | 0.1697         |
+| Sports      | 41,824.41     | 0.1600         |
+| Home        | 38,873.78     | 0.1488         |
+| Beauty      | 26,384.59     | 0.1010         |
+| Books       | 23,229.86     | 0.0889         |
+| Toys        | 21,772.17     | 0.0833         |
+
+> These outputs are **generated dynamically** from the synthetic datasets using `queries.sql` on the SQLite database.
