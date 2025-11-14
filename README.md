@@ -84,3 +84,13 @@ This project was built using **Cursor IDE** and **GitHub Copilot**. All AI promp
   - Creating the SQLite ingestion scripts
   - Writing multi-table SQL analytics queries
 
+## 🤝 Tools & Technologies
+
+- **Cursor IDE** – AI-assisted coding environment for generating scripts and queries  
+- **Python 3.11** – Core programming language  
+  - **Pandas** – Data manipulation and CSV handling  
+  - **NumPy** – Numeric operations for synthetic data generation  
+- **SQLite3** – Lightweight relational database for ingestion and queries  
+- **SQL** – Multi-table queries, joins, aggregations, subqueries  
+- **CSV** – Input and output file format for datasets  
+- **Git & GitHub** – Version control and repository management  
