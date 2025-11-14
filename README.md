@@ -29,3 +29,12 @@ The goal is to create a clean, unique, and production-like system demonstrating 
   - Monthly Revenue for the Last 5 Months
   - Top 5 Customers by Average Review Rating
   - Product Revenue Contribution by Category
+.
+├── data/                     
+├── database/                 
+├── src/
+│   ├── generate_data.py      
+│   └── ingest_to_sqlite.py   
+├── queries.sql               
+├── requirements.txt          
+└── README.md                 
