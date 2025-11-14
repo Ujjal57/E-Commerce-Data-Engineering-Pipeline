@@ -126,7 +126,7 @@ The pipeline generates multiple useful business insights from the synthetic e-co
 | 2025-08 | 11,021.09     |
 | 2025-07 | 12,196.76     |
 
-### 4️⃣ Top 5 Customers by Average Review Rating (min 3 reviews)
+### 4️⃣ Top 5 Customers by Average Review Rating
 | customer_id | name            | review_count | avg_rating |
 |------------|----------------|--------------|------------|
 | 426        | James Rodriguez | 5            | 4.80       |
