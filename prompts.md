@@ -4,7 +4,6 @@ This file documents the AI prompts used in **Cursor IDE** to create the syntheti
 
 Each prompt corresponds to a specific task: generating data, ingesting it into SQLite, and creating multi-table SQL analytics queries.
 
----
 
 ## 1️⃣ Cursor IDE Prompt: Generate Synthetic Data
 
@@ -52,7 +51,7 @@ Each prompt corresponds to a specific task: generating data, ingesting it into S
 # - Database created under database/ecommerce.db
 ```
 
-3️⃣ Cursor IDE Prompt: Multi-Table SQL Queries
+## 3️⃣ Cursor IDE Prompt: Multi-Table SQL Queries
 
 ```text
 # Task:
