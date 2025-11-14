@@ -58,7 +58,7 @@ E-Commerce-Data-Engineering-Pipeline/
 ```bash
 git clone https://github.com/Ujjal57/E-Commerce-Data-Engineering-Pipeline.git
 cd E-Commerce-Data-Engineering-Pipeline
-
+```
 2. **Install dependencies:**
 
 ```bash
