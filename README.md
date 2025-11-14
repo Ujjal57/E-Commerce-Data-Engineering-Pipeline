@@ -50,6 +50,7 @@ E-Commerce-Data-Engineering-Pipeline/
 ├── src/
 │   ├── generate_data.py        # Script to generate synthetic CSV data
 │   └── ingest_to_sqlite.py     # Script to ingest CSVs into SQLite
+├── synthetic_ecom_data/        # Auto-generated CSVs
 ├── prompts.md                  # Consolidated AI prompts used for data generation, ingestion, and SQL queries
 ├── queries.sql                 # Advanced multi-table SQL analytics queries
 ├── requirements.txt            # Python dependencies
