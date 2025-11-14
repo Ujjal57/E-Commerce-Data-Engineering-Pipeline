@@ -51,3 +51,30 @@ E-Commerce-Data-Engineering-Pipeline/
 └── README.md                   # Project documentation
 ```
 
+## 🛠 Installation & Usage
+
+1. **Clone the repository from GitHub:**
+
+```bash
+git clone https://github.com/Ujjal57/E-Commerce-Data-Engineering-Pipeline.git
+cd E-Commerce-Data-Engineering-Pipeline
+
+2. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+
+3. **Generate synthetic data:**
+
+```bash
+python src/generate_data.py --seed 42 --scale 1
+
+4. **Build the SQLite database:**
+
+```bash
+python src/ingest_to_sqlite.py
+
+5. **Run analytics queries:**
+
+```bash
+sqlite3 database/ecommerce.db ".read queries.sql"
