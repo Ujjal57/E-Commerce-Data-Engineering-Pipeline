@@ -75,8 +75,12 @@ python src/generate_data.py --seed 42 --scale 1
 ```bash
 python src/ingest_to_sqlite.py
 ```
-5. **Run analytics queries:**
-```
-```bash
-sqlite3 database/ecommerce.db ".read queries.sql"
-```
+## 📝 AI Prompts
+
+This project was built using **Cursor IDE** and **GitHub Copilot**. All AI prompts used for generating data, creating the database ingestion scripts, and writing multi-table SQL analytics queries are consolidated into a single file:
+
+- `prompts.md` – Contains all prompts, including:
+  - Generating synthetic e-commerce datasets
+  - Creating the SQLite ingestion scripts
+  - Writing multi-table SQL analytics queries
+
