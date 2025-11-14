@@ -63,18 +63,19 @@ cd E-Commerce-Data-Engineering-Pipeline
 
 ```bash
 pip install -r requirements.txt
-
+```
 3. **Generate synthetic data:**
 
 ```bash
 python src/generate_data.py --seed 42 --scale 1
-
+```
 4. **Build the SQLite database:**
 
 ```bash
 python src/ingest_to_sqlite.py
-
+```
 5. **Run analytics queries:**
-
+```
 ```bash
 sqlite3 database/ecommerce.db ".read queries.sql"
+```
