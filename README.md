@@ -3,7 +3,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![SQLite](https://img.shields.io/badge/SQLite-database-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 This project is a complete end-to-end data engineering pipeline built using Cursor IDE with GitHub Copilot assistance. It includes synthetic e-commerce data generation, ingestion into SQLite, and advanced multi-table SQL analytics.
 
