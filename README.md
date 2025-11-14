@@ -24,7 +24,8 @@ The goal is to create a clean, unique, and production-like system demonstrating 
 - Queries combine multiple tables (`JOIN`, `LEFT JOIN`) for insights
 - Aggregate functions (`SUM()`, `AVG()`, `COUNT()`) and nested subqueries
 - Example insights:
-  - Top customers and products by revenue
-  - Monthly revenue trends
-  - Category-level revenue contributions
-  - Customer lifetime value (LTV) and review analysis
+  - Top 5 Customers by Lifetime Spend
+  - Top 5 Products by Revenue and Units Sold
+  - Monthly Revenue for the Last 5 Months
+  - Top 5 Customers by Average Review Rating
+  - Product Revenue Contribution by Category
