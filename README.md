@@ -4,7 +4,6 @@ This project is a complete end-to-end data engineering pipeline built using Curs
 
 The goal is to create a clean, unique, and production-like system demonstrating real-world data engineering workflows.
 
----
 
 ## 🚀 Project Highlights
 
