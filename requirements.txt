@@ -1,0 +1,7 @@
+# Requirements for E-Commerce Data Engineering Pipeline
+# Tested with Python 3.8+ (recommend 3.10 or newer)
+
+Faker==23.3.0
+pandas==2.2.2
+numpy==1.26.4
+
