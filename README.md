@@ -31,31 +31,13 @@ The goal is to create a clean, unique, and production-like system demonstrating 
   - Product Revenue Contribution by Category
 
  ## 📁 Project Structure
- ecommerce-analytics-pipeline/
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── prompts/                           # AI prompts used
-│   ├── 01_data_generation.md
-│   ├── 02_database_design.md
-│   └── 03_analytics_queries.md
-├── data/                              # Generated datasets
-│   ├── products.csv
-│   ├── customers.csv
-│   ├── orders.csv
-│   ├── order_items.csv
-│   └── reviews.csv
-├── scripts/                           # Python automation
-│   ├── generate_data.py
-│   ├── setup_database.py
-│   ├── run_queries.py
-│   └── utils.py
-├── database/                          # SQLite database
-│   └── ecommerce.db
-├── queries/                           # SQL queries
-│   ├── schema.sql
-│   └── analytics.sql
-├── results/                           # Query outputs
-│   └── insights.txt
-└── docs/                              # Additional documentation
-    └── data_dictionary.md
-                     
+E-Commerce-Data-Engineering-Pipeline/
+├── data/                     # Generated synthetic CSV datasets
+├── database/                 # SQLite database after ingestion
+├── src/
+│   ├── generate_data.py      # Script to generate synthetic CSV data
+│   └── ingest_to_sqlite.py   # Script to ingest CSVs into SQLite
+├── queries.sql               # Advanced multi-table SQL analytics queries
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
+
